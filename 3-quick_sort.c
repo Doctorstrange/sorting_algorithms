@@ -17,7 +17,7 @@ void table_swap(int *x, int *y)
 
 
 /**
- * lomuto_partition - Order a subset of an array of integers according to
+ * lomuto_group - Order a subset of an array of integers according to
  *                    the lomuto partition scheme (last element as pivot).
  * @array: The array of integers.
  * @size: The size of the array.
@@ -54,7 +54,7 @@ int lomuto_group(int *array, size_t size, int left, int right)
 }
 
 /**
- * lomuto_sort - Implement the quicksort algorithm through recursion.
+ * lomuto_scheme - Implement the quicksort algorithm through recursion.
  * @array: An array of integers to sort.
  * @size: The size of the array.
  * @left: starting index of the array partition to order
